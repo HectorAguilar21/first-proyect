@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'Reach Story';
+    src: url('../fuentes/Reach Story.ttf');
+}
+
+@font-face {
+    font-family: 'PokemoSolid';
+    src: url('../fuentes/PokemonSolid.ttf');
+}
+
+@font-face {
+    font-family: 'Just Squash';
+    src: url('../fuentes/Just Squash.otf');
+}
+
+@font-face {
+    font-family: 'Besans';
+    src: url('../fuentes/Besans TTF.ttf');
+}
+
+.container {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    max-height: 1000px;
+    max-width: 400px;
+    min-width: 400px;
+    text-align: center;
+    align-items: center;
+    background-color: #e3e3e3;
+    box-shadow:
+        16px 16px 32px #c8c8c8,
+        -16px -16px 32px #fefefe;
+}
+
+.titleTextForm {
+    margin: auto;
+    padding: 15px;
+    font-family: 'Reach Story';
+    font-size: 50px;
+    color: #eb3f3f;
+    text-shadow: 10px 10px 25px #a1a1a1;
+}
+
+.inputForm {
+    position: relative;
+}
+
+input {
+    width: 245px;
+    border: solid 3px yellow;
+    border-radius: 1rem;
+    background: white;
+    padding: 0.7rem;
+    font-size: 1rem;
+    box-shadow:
+        16px 16px 32px #b3b3b3,
+        -16px -16px 32px #fefefe;
+}
+
+.buttonSearch {
+    margin: 10px;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #eb3f3f;
+    border-radius: 6px;
+    border: 2px solid yellow;
+}
+
+.buttonSearch:hover {
+    color: #1883ba;
+    background-color: #ffffff;
+
+}
+
+.card {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+img {
+    max-width: 150px;
+    margin: 15px;
+    margin-right: 30px;
+}
+
+.cardInfoSearch {
+    height: 250px;
+}
+
+#namePokemonSearch {
+    margin: auto;
+    font-family: 'PokemoSolid';
+    font-size: 35px;
+    font-weight: 100;
+    color: rgb(0, 0, 0);
+    text-transform: capitalize;
+}
+
+ul {
+    text-align: left;
+    margin-block-start: auto;
+    margin-block-end: auto;
+}
+
+li {
+    font-family: 'Besans';
+    font-size: 13px;
+}
